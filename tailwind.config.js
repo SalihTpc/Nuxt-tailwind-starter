@@ -8,7 +8,14 @@ export default {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        opensans: ["Open Sans", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
